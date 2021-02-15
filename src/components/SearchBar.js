@@ -16,11 +16,12 @@ const SearchBar = ({searchState, onChange, onSubmit}) => {
 
 const styles = StyleSheet.create({
     background:{
-        backgroundColor: '#F0EEEE',
+        backgroundColor: '#B9B8B8',
         height: 50,
         borderRadius: 5,
         marginHorizontal: 15,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginBottom: 10
     },
     inputStyle:{
         flex: 1,
